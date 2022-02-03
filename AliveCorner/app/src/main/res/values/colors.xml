@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#356115</color>
+    <color name="colorPrimaryDark">#3A5D21</color>
+    <color name="colorAccent">#6BB12C</color>
+    <color name="colorError">#E7232C</color>
+    <color name="colorWarn">#FDCD0D</color>
+    <color name="colorDisableDevice">#454545</color>
+    <color name="colorDisableText">#BDBDBD</color>
+    <color name="colorNonPrimaryText">#757575</color>
+    <color name="colorTextNormal">#000000</color>
+    <color name="colorItemBackground">#FFFFFF</color>
+    <color name="colorBackground">#CFCFCF</color>
+    <color name="green_text_color">#356115</color>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorTextNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_days" />
+
+    <CheckBox
+        android:id="@+id/monBox"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/monday" />
+
+    <CheckBox
+        android:id="@+id/tueBox"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tuesday" />
+
+    <CheckBox
+        android:id="@+id/wedBox"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wednesday" />
+
+    <CheckBox
+        android:id="@+id/thuBox"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/thursday" />
+
+    <CheckBox
+        android:id="@+id/friBox"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/friday" />
+
+    <CheckBox
+        android:id="@+id/satBox"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/saturday" />
+
+    <CheckBox
+        android:id="@+id/sunBox"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sunday" />
+</LinearLayout>

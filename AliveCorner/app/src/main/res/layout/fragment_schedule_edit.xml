@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TimePicker android:id="@+id/simpleTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorItemBackground"
+            android:padding="20dp"
+            android:timePickerMode="spinner"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/enabledDisabled"
+            android:gravity="center"
+            android:background="@color/colorItemBackground"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="@color/colorTextNormal"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop = "4dp"
+            android:clickable="false"
+            android:background="@color/colorItemBackground"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/repeatLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorTextNormal"
+                    android:text="@string/repeat" />
+
+                <TextView
+                    android:id="@+id/repeatText"
+                    android:layout_weight="9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextNormal" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_chevron_right_black_24dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop = "4dp"
+            android:background="@color/colorItemBackground"
+            android:orientation="vertical">
+
+            <SeekBar
+                android:id="@+id/portionSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="36dp" />
+
+            <TextView
+                android:id="@+id/portionText"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/colorTextNormal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deleteDeviceLayout"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/colorError"
+                android:textSize="16sp"
+                android:layout_weight="10"
+                android:text="@string/delete_this_schedule_item" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_clear_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop = "4dp"
+            android:background="@color/colorItemBackground"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cnl_button"
+                android:background="@drawable/rounded_not_filled_button"
+                android:textColor="#356115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/cancel_text" />
+
+            <Button
+                android:id="@+id/ok_button"
+                android:background="@drawable/rounded_filled_button"
+                android:textColor="@color/colorItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="@string/ok_text" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

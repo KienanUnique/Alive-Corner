@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name" translatable="false">Alive Corner</string>
+    <string name="nav_header_title">Alive Corner</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <!-- HEADERS -->
+    <string name="menu_home">Главная</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_add">Добавить устройство</string>
+    <string name="menu_device">Control</string>
+
+    <!-- SNACKBARS -->
+    <string name="device_duplicate_warning">Устройство с таким ID уже добавлено</string>
+    <string name="all_data_required_warning">Пожалуйста, заполните все необходимые данные</string>
+    <string name="sending_request_warning">Произошла ошибка во время отправки запроса</string>
+    <string name="invalid_qr_warning">Неправильный QR-код</string>
+    <string name="error_reading_qr_warning">Произошла ошибка во время чтения QR-кода</string>
+    <string name="no_news_warning">Похоже, что от этого устройства нет новостей\nПотяните вниз для обновления</string>
+    <string name="task_already_in_progress_warning">Задача уже выполняется</string>
+    <string name="ok_feeding_request_warning">Запрос на кормление был отправлен\nПодождите минуту</string>
+    <string name="no_devices_warning"><![CDATA[Похоже, что вы не добавили устройства]]></string>
+    <string name="schedule_item_duplicate_warning">Такой элемент расписания уже создан</string>
+    <string name="no_days_selected_warning">Не были выбраны дни для кормления,\nПожалуйста, попробуйте снова</string>
+    <string name="excess_number_of_schedule_items">Можно добавить только 10 элементов расписания</string>
+    <string name="stub_for_the_future">Еще не реализовано\nБудет добавлено в следующих версиях</string>
+    <string name="all_dev_disable">Все устройства выключены</string>
+    <string name="all_dev_enable">Все устройства включены</string>
+    <string name="changes_apply_delay">Изменения вступят в силу в течении минуты</string>
+    <string name="name_duplication_warning">Такое имя уже добавлено,\nПожалуйста, попробуйте другое</string>
+    <string name="name_invalid_warning">Некорректное имя,\nПожалуйста, попробуйте другое</string>
+    <string name="invalid_device_data_warning">Некорректные данные устройства</string>
+    <string name="server_is_unavailable_warning">Сервер недоступен</string>
+    <string name="cant_complete_task_warning">Устройство не может выполнить ваше задание</string>
+
+    <!-- BUTTONS -->
+    <string name="cancel_text">Отмена</string>
+    <string name="ok_text">Ок</string>
+    <string name="yes">Да</string>
+    <string name="accept">Принять</string>
+
+    <!-- DIALOGS -->
+    <string name="loading_text">Подождите минутку…</string>
+    <string name="clarification">Подтверждение</string>
+    <string name="delete_clarification_text">Вы уверены, что хотите удалить этот элемент расписания?</string>
+    <string name="clarification_apply_changes">Вы уверены, что хотите применить изменения?</string>
+    <string name="delete_device_clarification">Вы уверены, что хотите удалить это устройство?</string>
+    <string name="enter_new_name">Введите новое имя</string>
+    <string name="set_gmt_time_zone">Укажите GMT часовой пояс:</string>
+    <string name="select_a_portion_size">Выбрать размер порции</string>
+    <string name="generated_qr_code">Сгенерированный QR-код</string>
+    <string name="select_days">Выберете дни кормления:</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+    <!-- OTHER -->
+    <string name="name_field_hint">Имя</string>
+    <string name="id_field_hint">ID</string>
+    <string name="password_field_hint">Пароль</string>
+    <string name="camera_permission_granted">Получено разрешение на использование камеры</string>
+    <string name="camera_permission_denied">Получен запрет на использование камеры</string>
+    <string name="edit_but">Настройки</string>
+    <string name="feed_now_but">Покормить сейчас</string>
+    <string name="id_header_text">ID:</string>
+    <string name="food_level_header">Количество корма:</string>
+    <string name="next_feeding_time_header">Следующее кормление:</string>
+    <string name="enable">Включено</string>
+    <string name="disable">Отключено</string>
+    <string name="seconds">" сек"</string>
+    <string name="no_schedule">Нет расписания</string>
+    <string name="device_error_out_of_food">Ошибка - нет корма</string>
+    <string name="device_unknown_error">Неизвестная ошибка</string>
+    <string name="error">Ошибка</string>
+    <string name="feed_filling">Выдача корма</string>
+    <string name="eating">Прием пищи</string>
+    <string name="change_schedule">Изменить расписание</string>
+    <string name="change_name">Изменить имя:</string>
+    <string name="scan_qr_code_but">Сканировать QR-код</string>
+    <string name="time_zone">Часовой пояс:</string>
+    <string name="language">Язык:</string>
+    <string name="current_language">Русский</string>
+    <string name="disable_notifications">Отключить уведомления</string>
+    <string name="disable_all_devices">Отключить все устройства</string>
+    <string name="disable_this_device">Отключить устройство</string>
+    <string name="share_device_with_qr_code">Поделиться устройством QR-кодом</string>
+    <string name="delete_this_device">Удалить устройство</string>
+    <string name="repeat">Повтор:</string>
+    <string name="delete_this_schedule_item">Удалить элемент расписания</string>
+    <string name="en_language">English</string>
+    <string name="ru_language">Русский</string>
+    <string name="select_language">Выберете язык:</string>
+    <string name="restart_request">Перезапустите приложение для смены языка</string>
+
+    <string name="monday_abbreviated">Пн</string>
+    <string name="tuesday_abbreviated">Вт</string>
+    <string name="wednesday_abbreviated">Ср</string>
+    <string name="thursday_abbreviated">Чт</string>
+    <string name="friday_abbreviated">Пт</string>
+    <string name="saturday_abbreviated">Сб</string>
+    <string name="sunday_abbreviated">Вс</string>
+</resources>

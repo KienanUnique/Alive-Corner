@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name" translatable="false">Alive Corner</string>
+    <string name="nav_header_title">Alive Corner</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <!-- HEADERS -->
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add">Add new device</string>
+    <string name="menu_device">Control</string>
+
+    <!-- SNACKBARS -->
+    <string name="device_duplicate_warning">Device with the same name or ID already exists</string>
+    <string name="all_data_required_warning">Please fill all data required</string>
+    <string name="sending_request_warning">Error sending request</string>
+    <string name="invalid_qr_warning">Incorrect QR-code</string>
+    <string name="error_reading_qr_warning">Error reading QR-code</string>
+    <string name="no_news_warning">There seems to be no news from this device\nPlease swipe down for an update</string>
+    <string name="task_already_in_progress_warning">The task is already in progress</string>
+    <string name="ok_feeding_request_warning">Request has been sent\nFeeding will be in 1 minute</string>
+    <string name="no_devices_warning"><![CDATA[It seems you haven\'t added devices]]></string>
+    <string name="schedule_item_duplicate_warning">Such schedule element already created</string>
+    <string name="no_days_selected_warning">No days were selected,\nPlease try again</string>
+    <string name="excess_number_of_schedule_items">Only 10 schedule items can be created</string>
+    <string name="stub_for_the_future">Not available now\nWill be added in future versions</string>
+    <string name="all_dev_disable">All devices have been disabled</string>
+    <string name="all_dev_enable">All devices have been enabled</string>
+    <string name="changes_apply_delay">Changes will be applied in 1 minute</string>
+    <string name="name_duplication_warning">This name is already used,\nPlease try another one</string>
+    <string name="name_invalid_warning">Incorrect name,\nPlease try another one</string>
+    <string name="invalid_device_data_warning">Incorrect device data</string>
+    <string name="server_is_unavailable_warning">Server is unavailable</string>
+    <string name="cant_complete_task_warning">The device cannot complete the task</string>
+
+    <!-- BUTTONS -->
+    <string name="cancel_text">Cancel</string>
+    <string name="ok_text">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="accept">Accept</string>
+
+    <!-- DIALOGS -->
+    <string name="loading_text">Please wait for a minute…</string>
+    <string name="clarification">Clarification</string>
+    <string name="delete_clarification_text">Are you sure you want to delete this schedule item?</string>
+    <string name="clarification_apply_changes">Are you sure you want to apply the changes?</string>
+    <string name="delete_device_clarification">Are you sure you want to delete this device?</string>
+    <string name="enter_new_name">Enter new name</string>
+    <string name="set_gmt_time_zone">Set GMT time zone:</string>
+    <string name="select_a_portion_size">Select a portion size</string>
+    <string name="generated_qr_code">Generated QR code</string>
+    <string name="select_days">Select days:</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <!-- OTHER -->
+    <string name="name_field_hint">Name</string>
+    <string name="id_field_hint">ID</string>
+    <string name="password_field_hint">Password</string>
+    <string name="camera_permission_granted">Camera permission granted</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="edit_but">Edit</string>
+    <string name="feed_now_but">Feed now</string>
+    <string name="id_header_text">ID:</string>
+    <string name="food_level_header">Food level:</string>
+    <string name="next_feeding_time_header">Next Feeding Time:</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="seconds">" seconds"</string>
+    <string name="no_schedule">No schedule</string>
+    <string name="device_error_out_of_food">Error - out of food</string>
+    <string name="device_unknown_error">Unknown error</string>
+    <string name="error">Error</string>
+    <string name="feed_filling">Feed filling</string>
+    <string name="eating">Eating</string>
+    <string name="change_schedule">Change schedule</string>
+    <string name="change_name">Change name:</string>
+    <string name="scan_qr_code_but">Scan QR code</string>
+    <string name="time_zone">Time zone:</string>
+    <string name="language">Language:</string>
+    <string name="current_language">English</string>
+    <string name="disable_notifications">Disable notifications</string>
+    <string name="disable_all_devices">Disable all devices</string>
+    <string name="disable_this_device">Disable device</string>
+    <string name="share_device_with_qr_code">Share device with QR code</string>
+    <string name="delete_this_device">Delete this device</string>
+    <string name="repeat">Repeat:</string>
+    <string name="delete_this_schedule_item">Delete this schedule item</string>
+    <string name="en_language">English</string>
+    <string name="ru_language">Русский</string>
+    <string name="select_language">Choose a language:</string>
+    <string name="restart_request">Restart application for language change</string>
+
+    <string name="monday_abbreviated">Mon</string>
+    <string name="tuesday_abbreviated">Tue</string>
+    <string name="wednesday_abbreviated">Wed</string>
+    <string name="thursday_abbreviated">Thu</string>
+    <string name="friday_abbreviated">Fri</string>
+    <string name="saturday_abbreviated">Sat</string>
+    <string name="sunday_abbreviated">Sun</string>
+</resources>
